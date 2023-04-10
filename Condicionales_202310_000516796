@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMKoqFshPOMQvHfOqvCYpR/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/josegalle17/PROGRAMACION/blob/main/Condicionales_202310_000516796\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "(MARKDOWN)\n",
+        "JOSE DAVID GALLEGO ORTIZ\n",
+        "000516796\n",
+        "jose.gallegoo@upb.edu.co\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "IFqEGYntHY_Z"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "e0N9wOGVETAS"
+      },
+      "outputs": [],
+      "source": [
+        "\n",
+        "nota = float(input(\"Ingrese su nota\"))\n",
+        "if nota >=4.6: \n",
+        "  print(\"excelente\")\n",
+        "elif nota >=4.0:\n",
+        "  print(\"bueno\")\n",
+        "elif nota >=3.0:\n",
+        " print(\"regular\")\n",
+        "else: nota >= 0\n",
+        "print(\"malo\")"
+      ]
+    }
+  ]
+}
